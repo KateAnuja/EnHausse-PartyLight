@@ -1,0 +1,7 @@
+{
+  "name": "EnHausse-PartyLight",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
