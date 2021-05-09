@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'party-light',
+    loadChildren: () => import('./party-light/party-light.module').then( m => m.PartyLightPageModule)
+  },
 ];
 
 @NgModule({

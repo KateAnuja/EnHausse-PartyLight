@@ -1,0 +1,4 @@
+@-webkit-keyframes color-change-5x{0%{background:#19dcea}25%{background:#b22cff}50%{background:#ea2222}75%{background:#f5be10}100%{background:#3bd80d}}@keyframes color-change-5x{0%{background:#19dcea}25%{background:#b22cff}50%{background:#ea2222}75%{background:#f5be10}100%{background:#3bd80d}}
+ion-content{
+   --background : color-change-5x 2s ease-in infinite reverse forwards;animation:color-change-5x 2s ease-in infinite reverse forwards;
+}
