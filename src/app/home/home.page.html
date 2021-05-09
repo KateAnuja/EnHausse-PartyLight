@@ -1,12 +1,11 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Party Light
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-  <ion-button (click)="openPartyLight()">Party Light</ion-button>
-  <ion-button>Candle Feature</ion-button>
 </ion-content>
+<ion-footer>
+  <ion-item>
+    <ion-label>Flashlight</ion-label>
+    <ion-toggle (ionChange)="getFlashlightState($event)"></ion-toggle>
+  </ion-item>
+  <ion-item [ngClass]="{'hidden' : !isFlashlight}">
+    <ion-range #range (touchend)="getRangeValue($event)" color="danger" pin="true"></ion-range>
+  </ion-item>
+</ion-footer>

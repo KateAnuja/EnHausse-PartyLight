@@ -16,7 +16,10 @@
     </style>
 
 
-    <style name="AppTheme.NoActionBarLaunch" parent="AppTheme.NoActionBar">
-        <item name="android:background">@drawable/splash</item>
-    </style>
+  <style name="AppTheme.NoActionBarLaunch" parent="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:background">@drawable/splash</item>
+  </style>
 </resources>
